@@ -10,3 +10,4 @@ def employee_id(request, employee_id):
     response = f"<p>ID сотрудника: {employee_id}</p>"
 
     return HttpResponse(response)
+
